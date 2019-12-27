@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #FFFF33;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#titlebar {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subnavbar {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.subnavbar a {
+    padding: .5%;
+    margin: 2%;
+}
+
+.subnavbar a:hover {
+    background: white;
+    border-radius: 7px;
+}
+
+.mainpicture {
+    width: 100%;
+}
+
