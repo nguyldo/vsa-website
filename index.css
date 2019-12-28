@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
 body {
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Cinzel', serif;
 }
 
 .navbar {
@@ -8,7 +10,6 @@ body {
     background-color: #FFFF33;
     padding: 20px;
     text-align: center;
-    
 }
 
 #titlebar {
@@ -24,6 +25,8 @@ body {
 .subnavbar a {
     padding: .5%;
     margin: 2%;
+    text-decoration: none;
+    color: black;
 }
 
 .subnavbar a:hover {
@@ -35,3 +38,39 @@ body {
     width: 100%;
 }
 
+.about {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 38px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #2b252c;
+    padding: 30px;
+    height: 70px;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    float: left;
+}
+
+.socialmedia {
+    float: right;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+}
