@@ -4,8 +4,8 @@
 
 .grid {
     display: grid;
-    width: 100%;
-    grid-template-columns: 22% 22% 22%;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 5%;
 }
 
 .griditem {
@@ -13,5 +13,5 @@
 }
 
 .boardpic {
-    width: 80%;
+    width: 60%;
 }
