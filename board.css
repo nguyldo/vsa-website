@@ -1,0 +1,17 @@
+.mainbody {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 22% 22% 22%;
+}
+
+.griditem {
+    text-align: center;
+}
+
+.boardpic {
+    width: 80%;
+}
